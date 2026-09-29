@@ -1,0 +1,97 @@
+{
+    "gatherer": {
+        "gathered": "已采集",
+        "minigame": {
+            "title": "采集小游戏"
+        },
+        "sheet": {
+            "err": {
+                "noDraws": "此采集点已耗尽，直到重置之前无法再次使用。",
+                "noActor": "没有可执行采集的角色。请选择一个标记或分配给自己一个角色。",
+                "noReq": "你不符合在此处采集的要求。缺少：",
+                "noItem": "未找到物品。请检查拼写并重试。",
+                "noExp": "你未从此位置采集任何资源……",
+                "noGM": "必须有连接的 GM 用户才能采集。"
+            },
+            "gather": "采集",
+            "reset": "重置",
+            "remaining": "剩余次数",
+            "time": "重置时间",
+            "quantity": "数量",
+            "waitingFirst": "等待第一次抽取"
+        },
+        "flags": {
+            "table": {
+                "label": "掷骰表"
+            },
+            "time": {
+                "label": "时间",
+                "placeholder": "重置时间（小时）"
+            },
+            "quantity": {
+                "label": "数量",
+                "placeholder": "数字或掷骰表达式"
+            },
+            "draws": {
+                "label": "次数",
+                "placeholder": "采集点耗尽前的次数",
+                "notes": "留空以使用相应采集者页面中的次数"
+            },
+            "require": {
+                "label": "需要",
+                "placeholder": "以逗号分隔的物品列表"
+            },
+            "minigame": {
+                "label": "小游戏",
+                "placeholder": "小游戏时间（毫秒）"
+            },
+            "expression": {
+                "label": "条件",
+                "placeholder": "执行的宏条件"
+            },
+            "systemAbil": {
+                "label": "检定"
+            },
+            "DC": {
+                "label": "DC",
+                "placeholder": "DC"
+            },
+            "toolCheck": {
+                "label": "工具",
+                "placeholder": "工具名称"
+            },
+            "toolDC": {
+                "label": "DC",
+                "placeholder": "DC"
+            },
+            "gatherSheet": {
+                "label": "采集表",
+                "placeholder": "将采集者页面拖放至此处"
+            }
+        },
+        "gatherer-actor-config": {
+            "title": "采集者配置",
+            "notes": "为了收获一个目标标记，请创建以下宏：",
+            "notes2": "或使用键盘快捷键："
+        },
+        "error": {
+            "notGatherer": "这不是一个采集表。请选择一个采集表然后重试。",
+            "noDraws": "从此生物身上已没有更多资源可采集。",
+            "noJournal": "此标记没有与之关联的采集点。请选择具有有效采集点的标记然后重试。",
+            "cantHarvest": "未满足收获此标记的条件"
+        },
+        "settings": {
+            "resourcePath": {
+                "name": "收获资源路径",
+                "hint": "检查是否可能进行收获的路径。例如对于 DnD5e，这将是 'attributes.hp.value'，用于检查标记是否还活着。"
+            },
+            "resourceValue": {
+                "name": "收获资源值",
+                "hint": "检查是否可能进行收获的值。例如对于 DnD5e，这将是 '0'，用于检查标记是否没有剩余生命值。"
+            },
+            "enableHarvesting": {
+                "name": "启用采集"
+            }
+        }
+    }
+}

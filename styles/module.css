@@ -1,0 +1,75 @@
+.gatherer-container.journal-entry-pages{
+    margin-right: 1rem !important;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    border: 1px solid var(--color-border-light-tertiary);
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gatherer-container.journal-entry-pages header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gatherer-container.journal-entry-pages ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    flex: 1;
+    margin-bottom: 0.5rem;
+}
+
+.gatherer-container.journal-entry-pages ul li{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.gatherer-container.journal-entry-pages ul li:hover{
+    box-shadow: 0 0 5px var(--color-shadow-primary);
+}
+
+.gatherer-minigame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gatherer-minigame-item{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 10%;
+    margin: 1rem;
+    box-shadow: 0 0 10px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gatherer-config .form-group{
+    gap: 1rem;
+}
+
+#gatherer-actor-config{
+    .key{
+        flex: none;
+        padding: 0 4px;
+        min-width: 24px;
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid var(--color-border-light-2);
+        border-radius: 5px;
+        box-shadow: 1px 1px #444;
+        text-align: center;
+    }
+}

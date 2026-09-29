@@ -1,0 +1,22 @@
+<form action="submit">
+
+    <p class="notes">{{localize "gatherer.gatherer-actor-config.notes"}}</p>
+    <p style="user-select: all;" class="notes">CONFIG.GATHERER.harvestToken()</p>
+    <p class="notes">{{localize "gatherer.gatherer-actor-config.notes2"}} <span class="key">Shift+G</span></p>
+
+    <div class="form-group">
+            <label>{{localize "gatherer.flags.gatherSheet.label"}}</label>
+            <input type="text" id="gatherSheet" name="flags.gatherer.gatherSheet" placeholder="{{localize "gatherer.flags.gatherSheet.placeholder"}}" value="{{actor.flags.gatherer.gatherSheet}}">
+    </div>
+
+    <div class="form-group">
+            <label>{{localize "gatherer.flags.draws.label"}}</label>
+            <input type="number" name="flags.gatherer.draws" placeholder="{{localize "gatherer.flags.draws.placeholder"}}" value="{{actor.flags.gatherer.draws}}" min="0" step="1">
+            <p class="notes">{{localize "gatherer.flags.draws.notes"}}</p>
+    </div>
+
+
+    <footer class="flexrow">
+        <button type="submit"><i class="fas fa-check"></i> {{localize "Save"}}</button>
+    </footer>
+</form>

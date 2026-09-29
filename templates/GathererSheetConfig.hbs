@@ -1,0 +1,80 @@
+<div>
+    <hr>
+    <div class="form-group">
+        <label for="flags.gatherer.table">{{localize "gatherer.flags.table.label"}}</label>
+        <div class="form-fields">
+            <select name="flags.gatherer.table">
+                {{selectOptions tables selected=table}}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.time">{{localize "gatherer.flags.time.label"}}</label>
+        <div class="form-fields">
+            <input type="number" placeholder="{{localize "gatherer.flags.time.placeholder"}}" value="{{time}}"
+                step="0.01" name="flags.gatherer.time">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.draws">{{localize "gatherer.flags.draws.label"}}</label>
+        <div class="form-fields">
+            <input type="number" placeholder="{{localize "gatherer.flags.draws.placeholder"}}" value="{{draws}}"
+                step="1" name="flags.gatherer.draws">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.quantity">{{localize "gatherer.flags.quantity.label"}}</label>
+        <div class="form-fields">
+            <input type="text" placeholder="{{localize "gatherer.flags.quantity.placeholder"}}" value="{{quantity}}"
+                name="flags.gatherer.quantity">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.require">{{localize "gatherer.flags.require.label"}}</label>
+        <div class="form-fields">
+            <input type="text" placeholder="{{localize "gatherer.flags.require.placeholder"}}" value="{{require}}"
+                name="flags.gatherer.require">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.minigame">{{localize "gatherer.flags.minigame.label"}}</label>
+        <div class="form-fields">
+            <input type="number" placeholder="{{localize "gatherer.flags.minigame.placeholder"}}" value="{{minigame}}"
+                step="1" name="flags.gatherer.minigame">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="flags.gatherer.expression">{{localize "gatherer.flags.expression.label"}}</label>
+        <div class="form-fields">
+            <input type="text" placeholder="{{localize "gatherer.flags.expression.placeholder"}}"
+                value="{{expression}}" name="flags.gatherer.expression">
+        </div>
+    </div>
+    {{#if systemData}}
+    <div class="form-group" style="gap: 0.4rem;">
+        <label for="flags.gatherer.systemAbil">{{localize "gatherer.flags.systemAbil.label"}}</label>
+        <div class="form-fields">
+            <select name="flags.gatherer.systemAbil">
+                {{selectOptions systemSelect selected=systemAbil}}
+            </select>
+        </div>
+        <label for="flags.gatherer.DC">{{localize "gatherer.flags.DC.label"}}</label>
+        <div class="form-fields">
+            <input type="number" placeholder="{{localize "gatherer.flags.DC.placeholder"}}" value="{{DC}}"
+                step="1" name="flags.gatherer.DC">
+        </div>
+
+        <label for="flags.gatherer.toolCheck">{{localize "gatherer.flags.toolCheck.label"}}</label>
+        <div class="form-fields">
+             <input type="text" placeholder="{{localize "gatherer.flags.toolCheck.placeholder"}}"
+                value="{{toolCheck}}" name="flags.gatherer.toolCheck">
+        </div>
+        <label for="flags.gatherer.toolDC">{{localize "gatherer.flags.toolDC.label"}}</label>
+        <div class="form-fields">
+            <input type="number" placeholder="{{localize "gatherer.flags.toolDC.placeholder"}}" value="{{toolDC}}"
+                step="1" name="flags.gatherer.toolDC">
+        </div>
+    </div>
+    {{/if}}
+    <hr>
+</div>
