@@ -1,5 +1,5 @@
 {
-    "title":  "Gatherer",
+    "title":  "PF2e gatherer",
     "description":  "Gather, Hunt and Scavenge with a simple to use, Rollable Table based custom Journal Page.",
     "id":  "gatherer",
     "version":  "4.0.2",
@@ -31,8 +31,9 @@
     "packs":  [
 
               ],
-    "url":  "https://www.patreon.com/theripper93",
-    "manifest":  "https://r2.foundryvtt.com/packages-public/gatherer/module.json",
+    "url":  "https://github.com/yefim-lopatin/PF2e-gatherer",
+    "manifest":  "https://github.com/yefim-lopatin/PF2e-gatherer/releases/latest/download/module.json",
+    "download":  "https://github.com/yefim-lopatin/PF2e-gatherer/releases/download/v4.0.2/gatherer.zip",
     "socket":  true,
     "relationships":  {
                           "requires":  [
